@@ -1,0 +1,11 @@
+applications:
+  - name: poc-gateway
+    path: ./build/libs/pal-gateway-0.0.1-SNAPSHOT.jar
+    routes:
+      - route: poc-gateway-deal-maker.cfapps.io
+    memory: 1G
+    instances: 1
+    services:
+      - tracker-service-registry
+
+

@@ -1,0 +1,16 @@
+pal:
+  url: lb://account-server
+spring:
+  main:
+    web-application-type: reactive
+  application:
+    name: pal-gateway
+#  cloud:
+#    gateway:
+#      routes:
+#      - id: account
+#        uri: lb://account-server
+#        predicates:
+#          - Path=/api/accounts
+#        filters:
+#          - RewritePath=/api/accounts, /accounts

@@ -1,0 +1,9 @@
+applications:
+  - name: poc-account
+    path: ./poc-account/build/libs/poc-account-0.0.1-SNAPSHOT.jar
+    routes:
+      - route: poc-account-deal-maker.cfapps.io
+    memory: 1G
+    instances: 1
+    services:
+      - tracker-service-registry
