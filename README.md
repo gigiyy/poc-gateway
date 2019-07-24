@@ -1,4 +1,4 @@
-# Spring Cloud Gateway receipt
+# Spring Cloud Gateway recipe
 
 ## summary
 
